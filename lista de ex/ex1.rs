@@ -2,7 +2,7 @@ fn main() {
     let mut buffer = String::new();
     let mut entrada1 = String::new();
     let mut entrada2 = String::new();
-    let mut resultado:u32 = 0;
+    let mut resultado:i32 = 0;
     
     println!("Digite [1] para soma");
     println!("Digite [2] para subtração");
@@ -12,7 +12,7 @@ fn main() {
     std::io::stdin()
         .read_line(&mut buffer)
         .expect("ERRO A LER A LINHA!!");
-    let escolha_de_numero:u8= buffer
+    let escolha_de_numero:i8= buffer
         .trim()
         .parse()
         .expect("ERRO A CONVERTER!!");
@@ -20,7 +20,7 @@ fn main() {
     std::io::stdin()
         .read_line(&mut entrada1)
         .expect("ERRO A LER A LINHA!!");
-    let escolha_de_numero1:u32= entrada1
+    let escolha_de_numero1:i32= entrada1
         .trim()
         .parse()
         .expect("ERRO A CONVERTER!! O PRIMEIRO NUMERO");
@@ -28,7 +28,7 @@ fn main() {
     std::io::stdin()
         .read_line(&mut entrada2)
         .expect("ERRO A LER A LINHA!!");
-    let escolha_de_numero2:u32= entrada2
+    let escolha_de_numero2:i32= entrada2
         .trim()
         .parse()
         .expect("ERRO A CONVERTER!! O SEGUNDO NUMERO");
@@ -42,6 +42,4 @@ fn main() {
     }
     println!("O RESULTADO É: {}",resultado)
 }
-
-    
 
