@@ -1,3 +1,5 @@
+//Implemente um código que para verificar se um triângulo é equilátero, isósceles ou
+//escaleno. Solicite do usuário os três lados do triângulo.
 fn main() {
     let mut l1 = String::new();
     let mut l2 = String::new();
