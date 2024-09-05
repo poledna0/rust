@@ -1,3 +1,6 @@
+//Implemente um código que (1) solicite dois números inteiros assinados de 32 bits do
+//usuário e (2) uma operação matemática: soma, subtração, divisão ou multiplicação. Ao final,
+//mostre o resultado de cada operação.
 fn main() {
     let mut buffer = String::new();
     let mut entrada1 = String::new();
