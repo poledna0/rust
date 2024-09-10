@@ -1,3 +1,5 @@
+//Implemente um código que verifique se um número é par ou ímpar. Solicite do usuário o
+//número e ao final mostre o resultado.
 fn main() {
     let mut buffer = String::new();
     println!("Digite um numero para saber se é par ou impar");
