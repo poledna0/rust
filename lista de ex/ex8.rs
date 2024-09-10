@@ -1,4 +1,6 @@
-fn main() {
+//Implemente um código que converta segundos para horas, minutos e segundos. Solicite do
+//usuário a quantidade de segundos e no final mostre os valores obtidos.
+    fn main() {
     let mut buffer = String::new();
     
     println!("Digite segundos para saber a hora exata do mesmo: ");
